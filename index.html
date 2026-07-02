@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fresher Students Registration Form</title>
+</head>
+<body>
+    <h1= "center">Customer Registration Form</h1>
+    <form>
+        <label for="name"> Customer Name:</label>
+        <input placeholder="Write your full name" type="text" id="name" name="name" required>
+        <br> <br>
+        <label for="mother_name"> Mother Name:</label>
+        <input placeholder="Write your mother name" type="text" id="mother_name" name="mother_name" required>
+        <br> <br>
+        <label for="father_name"> Father Name:</label>
+        <input placeholder="Write your father name" type="text" id="father_name" name="father_name" required>
+        <br> <br>
+        <label for="email">Email:</label>
+        <input placeholder="Write your email" type="email" id="email" name="email" required>
+        <br> <br>
+        <label for="phone">Phone:</label>
+        <input placeholder="Write your phone number" type="tel" id="phone" name="phone" required>
+        <br> <br>
+        <label for="address">Present Address:</label>
+        <input placeholder="Write your present address" type="text" id="address" name="address" required>
+        <br> <br>
+        <form>
+        <label>Gender:</label>
+
+        <input type="radio" id="male" name="gender" value="Male">
+        <label for="male">Male</label>
+
+        <input type="radio" id="female" name="gender" value="Female">
+        <label for="female">Female</label>
+
+        <input type="radio" id="other" name="gender" value="Other">
+        <label for="other">Other</label><br> <br>
+
+</form>
+        <label for="password">Password:</label>
+        <input type="password" id="password" name="password" required>
+        <br> <br>
+        <label for="datetime">Date and Time:</label>
+        <input type="datetime-local" id="datetime" name="datetime" required><br><br>
+
+        <label for="Size">Size:</label>
+        <select id="Size" name="Size" required>
+            <option value="">Select Size</option>
+            <option value="small">Small</option>
+            <option value="medium">Medium</option>
+            <option value="large">Large</option>
+            <option value="free-size">Free Size</option>
+        </select><br><br>
+        <button type="Edit" value="Edit">Edit</button>
+        <!-- <input type="Edit" value="Edit"> -->
+        <input type="submit" value="Submit">
+    </form>
+</body>
+</html>
